@@ -11,7 +11,7 @@
 <body>
     <header>
             <picture class="logo">
-                <img src="imagenes/logo.svg" alt="logo Manage">
+                <a href="index.html"><img src="imagenes/logo.svg" alt="logo Manage"></a>
             </picture>
             <div class="burger">
             <a href="index.html"><i class="fa-solid fa-bars"></i></a>
@@ -39,63 +39,65 @@
                 <button class="get-started">Get Started</button>
             </div>
         </div>
-        <section class="container-middle">    
-            <div class="whats-different">
-                <h2>What's different <br> about Manage?</h2>
-                <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
-            </div>
-            <div class="sections">
-                <section class="content">
-                    <div class="flex-content">
-                        <p>01</p>
-                        <ul>
-                            <li id="content-title">Track company-wide progress</li>
-                    </div>    
-                            <li id="content-text">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the waydone to the smallest of details. Never lose sight of the bigger picture again.</li>
-                        </ul>
-                </section>
+        <div id="background">
+            <section class="container-middle">    
+                <div class="whats-different">
+                    <h2>What's different <br> about Manage?</h2>
+                    <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                </div>
+                <div class="sections">
+                    <section class="content">
+                        <div class="flex-content">
+                            <p>01</p>
+                            <ul>
+                                <li id="content-title">Track company-wide progress</li>
+                        </div>    
+                                <li id="content-text">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the waydone to the smallest of details. Never lose sight of the bigger picture again.</li>
+                            </ul>
+                    </section>
 
-                <section class="content">
-                    <div class="flex-content">
-                        <p>02</p>
-                        <ul>
-                        <li id="content-title">Advanced built-in reports</li>
-                    </div>    
-                        <li id="content-text">Set internal delivery estimates and track progress toward company goals. Our customizable dashboard helps you build out the reports you need to keep key stakeholders informed.</li>
-                    </ul>            
-                </section>
-
-                <section class="content">
-                    <div class="flex-content">    
-                        <p>03</p>
-                        <ul>
-                            <li id="content-title">Everything you need in one place</li>
-                    </div>        
-                            <li id="content-text">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution</li>
+                    <section class="content">
+                        <div class="flex-content">
+                            <p>02</p>
+                            <ul>
+                            <li id="content-title">Advanced built-in reports</li>
+                        </div>    
+                            <li id="content-text">Set internal delivery estimates and track progress toward company goals. Our customizable dashboard helps you build out the reports you need to keep key stakeholders informed.</li>
                         </ul>            
-                </section>
-            </div>
-        </section>    
-        <h3 id="feedback">What they've said</h3>
-        <div class="container-cards">
-            <div id="anisha" class="cards">
-                <picture><img src="imagenes/avatar-anisha.png" alt="Anisha Li image"></picture>
-                <h4>Anisha Li</h4>
-                <p>“Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
-            </div>
-            <div is="ali" class="cards">
-                <picture><img src="imagenes/avatar-ali.png" alt="Ali Bravo image"></picture>
-                <h4>Ali Bravo</h4>
-                <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
-            </div>
-            <div id="richard" class="cards">
-                <picture><img src="imagenes/avatar-richard.png" alt="Richard Watts"></picture>
-                <h4>Richard Watts</h4>
-                <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!”</p>
-            </div>
-        </div>  
-        <div class="button-get-started">  
-            <button id="get-started-cards" class="get-started">Get Started</button>
+                    </section>
+
+                    <section class="content">
+                        <div class="flex-content">    
+                            <p>03</p>
+                            <ul>
+                                <li id="content-title">Everything you need in one place</li>
+                        </div>        
+                                <li id="content-text">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution</li>
+                            </ul>            
+                    </section>
+                </div>
+            </section>    
+            <h3 id="feedback">What they've said</h3>
+            <div class="container-cards">
+                <div id="anisha" class="cards">
+                    <picture><img src="imagenes/avatar-anisha.png" alt="Anisha Li image"></picture>
+                    <h4>Anisha Li</h4>
+                    <p>“Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+                </div>
+                <div is="ali" class="cards">
+                    <picture><img src="imagenes/avatar-ali.png" alt="Ali Bravo image"></picture>
+                    <h4>Ali Bravo</h4>
+                    <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                </div>
+                <div id="richard" class="cards">
+                    <picture><img src="imagenes/avatar-richard.png" alt="Richard Watts"></picture>
+                    <h4>Richard Watts</h4>
+                    <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!”</p>
+                </div>
+            </div>  
+            <div class="button-get-started">  
+                <button id="get-started-cards" class="get-started">Get Started</button>
+            </div>    
         </div>    
         <section class="simplify">
             <h3>Simplify how your team works today.</h3>
@@ -105,9 +107,9 @@
         </section>
     </main>
     <footer>
-        <form class="footer-form" action="post">
-            <input type="text" name="updates" id="updates" placeholder="Updates in your inbox...">
-            <button id="go">GO</button>
+        <form class="footer-form" action="">
+            <input type="email" name="updates" id="updates" placeholder="Updates in your inbox..." required>
+            <input type="submit" value="GO" id="go"></input>
         </form>
         <div class="container-links">
             <div class="first-footer-ul">
@@ -128,14 +130,14 @@
         </div>   
         <div class="logo-iconos"> 
             <picture class="icons">   
-                <i class="fa-brands fa-facebook-square"></i>
-                <i class="fa-brands fa-youtube-square"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-pinterest-square"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube-square"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://ar.pinterest.com"><i class="fa-brands fa-pinterest-square"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
             </picture>
             <picture id="logo-footer">
-                <img src="imagenes/Group.png" alt="logo">  
+                <a href="index.html"><img src="imagenes/Group.png" alt="logo"></a>  
             </picture>          
         </div>    
             <p id="copyright">Copyright 2020. All Rights Reserved.</p>
